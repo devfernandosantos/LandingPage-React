@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px; /*retirar as bordas pretas dos imputs*/
+    box-sizing: border-box; /*controla o tamanho da div ao aplicar as propriedades do box model*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280;
+    margin: auto;
+}
